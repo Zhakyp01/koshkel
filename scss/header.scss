@@ -1,0 +1,85 @@
+header{
+    background-color: #426D5D;
+    height: 91px;
+    width: 100%;
+    position: static;
+    
+    
+    .header_top{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header_logo{
+        padding-top: 5px;
+    }
+
+    .navbar, ul, li{
+        
+        display: inline-block;
+        text-transform: uppercase; 
+        padding: 10px 10px 0 10px;  
+        font-family: "Montserrat";
+        
+        
+        letter-spacing: 0.015em;
+        
+        a{
+            font-weight: 500;
+            font-size: 16px;
+            font-style: normal;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: rgb(230, 16, 16);
+        }
+    }
+   
+}
+.header_main{
+    background-image: url(/img/gory-zastavka.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    .header_main_title{
+        position: absolute;
+        margin-top: 130px;
+        color: #fff;
+
+        .header_title{
+            text-align: center;
+
+            h1{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 45px;
+                font-weight: 800;
+                letter-spacing: 0.03em;
+            }
+            p{
+                font-family: 'Montserrat';
+                font-size: 24px;
+                font-weight: 500;
+                letter-spacing: 0.01em;
+                padding-top: 40px;
+
+            }
+        }
+        .header_subtitle{
+            width: 80%;
+            padding-left: 250px;
+            padding-top: 25px;
+            p{
+                font-family: 'Montserrat';
+                font-size: 20px;
+                font-weight: 300;
+                letter-spacing: 0.01em;
+            }
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.carousel_title{
+    font-weight: 500;
+    font-size: 30;
+    text-align: center;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+.carousel_card_inner{
+    display: flex;
+    justify-content: space-around;
+    grid-gap: 15px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    margin: 0;
+
+
+    .cards {
+        background: #1ADA950F;        ;
+        // border: 0.5px solid rgb(85, 84, 84);
+        border-radius: 10px;
+        width: 270px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            
+        .carousel_card_title{
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0 8px 0;
+            h5{
+                font-size: 14px;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+            span{
+                font-size: 11px;
+                font-weight: 500;
+            }
+        }
+
+        .card_img{
+            img{
+                width: 270px;
+            }
+        }
+
+        .card_title{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0 10px 0 ;
+            font-weight: 300;
+            font-size: 10px;
+            text-transform: uppercase;
+            line-height: 2;
+            .card_title_left{
+                padding: 0 0 0 10px;
+            }
+            .card_title_right{
+                padding: 0 0 0 10px;
+            }
+            
+        }
+    }
+    
+}
