@@ -21,7 +21,11 @@
         border-radius: 10px;
         width: 270px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-            
+        cursor: pointer;
+        transition: 0.4s all ease-in-out;
+        
+
+
         .carousel_card_title{
             display: flex;
             justify-content: space-around;
@@ -60,5 +64,8 @@
             
         }
     }
+    .cards:hover{
+        margin-top:-10px;
+       }
     
 }
