@@ -30,3 +30,26 @@
         }
     }
 }
+
+.video_inner{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    margin-left: 10px;
+    display: flex;
+    .video_title{
+        width: 500px;
+        padding-left: 20px;
+        h3{
+            font-size: 35px;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+    .video{
+        padding-left: 55px;
+    }
+}

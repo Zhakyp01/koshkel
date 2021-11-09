@@ -1,6 +1,6 @@
 .footer{
     background-color: #184D3AD1;
-    height: 400px;
+    height: 300px;
     .footer_inner{
         padding-bottom: 20px;
         padding-top: 80px;
@@ -22,4 +22,18 @@
         }
     }
 
+}
+.copywrite{
+    background-color: #0c412dd1;
+    height: 40px;
+    .copywrite__txt{
+    
+        text-align: center;
+        padding-top: 10px;
+        
+        font-size: 14px;
+        font-weight: 500;
+        
+        
+    }
 }

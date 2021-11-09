@@ -4,3 +4,26 @@
 @import './carousel.scss';
 @import './carcarousel.scss';
 @import './footer.scss';
+
+@media only screen and (min-width: 600px) {
+    html {
+      zoom: .8;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    html {
+      zoom: .9;        
+    }
+  }
+
+  @media only screen  {
+    html {
+        @media  (min-width: 1000px) {
+            
+            zoom: 1;
+        }
+    }
+  }
+
+  
