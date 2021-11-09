@@ -42,6 +42,7 @@ header{
 .header_main{
     background-image: url(/img/gory-zastavka.jpg);
     background-repeat: no-repeat;
+     background-size: 100%;
     height: 800px;
     width: 100%;
     .header_main_title{
@@ -68,8 +69,10 @@ header{
             }
         }
         .header_subtitle{
-            width: 80%;
-            padding-left: 250px;
+            // width: 80%;
+            display: block;
+            padding-left: 150px;
+            padding-right: 100px;
             padding-top: 25px;
             p{
                 font-family: 'Montserrat';

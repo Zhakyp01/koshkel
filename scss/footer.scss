@@ -1,6 +1,7 @@
 .footer{
     background-color: #184D3AD1;
     height: 300px;
+    width: 100%;
     .footer_inner{
         padding-bottom: 20px;
         padding-top: 80px;
@@ -36,4 +37,36 @@
         
         
     }
+}
+
+$medium: 1024px;
+
+@media screen and (max-width: $medium) {
+    html{
+        zoom: .7;
+    }
+    .header_top{
+        margin-left: 20px;
+        .header_logo{
+            padding-top: 10px;
+            img{
+                width: 100px;
+            }
+        }
+        .nav_link{
+            font-size: 13px;
+            
+        }
+    }
+    .header_main_title{
+        margin-right: 30px;
+        position: absolute;
+    }
+
+    .video_title{
+        min-width: 550px;
+        padding-left: -30px;
+    }
+    
+    
 }
