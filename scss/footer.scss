@@ -38,7 +38,7 @@
         
     }
 }
-
+$small: 768px;
 $medium: 1024px;
 
 @media screen and (max-width: $medium) {
@@ -61,12 +61,5 @@ $medium: 1024px;
     .header_main_title{
         margin-right: 30px;
         position: absolute;
-    }
-
-    .video_title{
-        min-width: 550px;
-        padding-left: -30px;
-    }
-    
-    
+    }   
 }
