@@ -1,4 +1,4 @@
-# [koshkel.kg ](https://zhanybekovych.github.io/students-list-kelechek/)
+# [KOSHKEL.KG ](zhakyp01.github.io/koshkel/)
 
 ## This webpage is created for travellers.
 ### some screenshots from this website.
