@@ -7,7 +7,7 @@ header{
     
     .header_top{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -15,16 +15,14 @@ header{
         padding-top: 5px;
     }
 
+
     .navbar, ul, li{
-        
         display: inline-block;
-        text-transform: uppercase; 
+         text-transform: uppercase; 
         padding: 10px 10px 0 10px;  
-        font-family: "Montserrat";
-        
-        
+         font-family: "Montserrat";
         letter-spacing: 0.015em;
-        
+
         a{
             font-weight: 500;
             font-size: 16px;
