@@ -15,5 +15,5 @@
 #### HTML
 #### CSS
 #### JAVASCRIPT
-#### BOOTSRAPT
+#### BOOTSTRAP 
 #### SASS
